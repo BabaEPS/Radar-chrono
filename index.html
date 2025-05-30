@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radar de Vitesse - EPS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Radar de Vitesse - EPS</h1>
+  <div class="container">
+    <input type="number" id="distance" placeholder="Distance (m)" />
+    <button id="startStopBtn">Start</button>
+    <div class="result" id="vitesseDisplay">Vitesse : 0 km/h</div>
+    <div class="history">
+      <h2>Historique</h2>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+</body>
+</html>
